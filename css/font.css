@@ -1,0 +1,59 @@
+﻿@import url(/css/font/google/google_font_anton.css);
+/* @import url(https://fonts.googleapis.com/css?family=Anton); */
+/*Noto Sans*/
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Noto Sans'),
+         url('font/NotoSans-Regular.woff') format('woff'),
+         url('font/NotoSans-Regular.eot') format('embedded-opentype');
+}
+/*Noto Sans Bold*/
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Noto Sans Bold'),
+         url('font/NotoSans-Bold.woff') format('woff'),
+         url('font/NotoSans-Bold.eot') format('embedded-opentype');
+}
+/*Noto Sans Light*/
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Noto Sans Italic'), 
+         url('font/NotoSans-Light.woff') format('woff'), 
+         url('font/NotoSans-Light.eot') format('embedded-opentype');
+}
+/*Noto Sans Medium*/
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Noto Sans Italic'), 
+         url('font/NotoSans-Medium.woff') format('woff'), 
+         url('font/NotoSans-Medium.eot') format('embedded-opentype');
+}
+/*Noto Sans Italic*/
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Noto Sans Italic'),
+         url('font/NotoSans-Italic.woff') format('woff'),
+         url('font/NotoSans-Italic.eot') format('embedded-opentype');
+}
+/*Noto Sans Bold Italic*/
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Noto Sans Bold Italic'),
+         url('font/NotoSans-BoldItalic.woff') format('woff'),
+         url('font/NotoSans-BoldItalic.eot') format('embedded-opentype');
+}
+body {
+    font-family: 'Noto Sans'
+}
